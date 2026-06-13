@@ -12,15 +12,35 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
 
-      - name: Fetch API using cURL
-        run: |
-          curl -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)" -s https://worldcupjson.net/matches?by_date=asc > matches.json
-          curl -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)" -s https://worldcupjson.net/teams/group_results > standings.json
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-      - name: Commit & Push ke GitHub
+      - name: Install Cloudscraper
+        run: pip install cloudscraper
+
+      - name: Tembak API Pakai Python (Bypass Cloudflare)
+        run: |
+          python -c "
+          import cloudscraper
+          scraper = cloudscraper.create_scraper()
+          
+          # Tembak Matches
+          print('Sedot data jadwal...')
+          m = scraper.get('https://worldcupjson.net/matches?by_date=asc')
+          with open('matches.json', 'w') as f: f.write(m.text)
+          
+          # Tembak Standings
+          print('Sedot data klasemen...')
+          s = scraper.get('https://worldcupjson.net/teams/group_results')
+          with open('standings.json', 'w') as f: f.write(s.text)
+          "
+
+      - name: Commit & Push Data
         run: |
           git config --local user.email "bot@github.com"
           git config --local user.name "FIFA Scraper Bot"
           git add matches.json standings.json
-          git commit -m "Update skor otomatis" || exit 0
+          git commit -m "Auto update skor via Python" || exit 0
           git push
