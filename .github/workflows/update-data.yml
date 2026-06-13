@@ -1,0 +1,26 @@
+name: Auto Fetch FIFA Data
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Fetch API using cURL
+        run: |
+          curl -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)" -s https://worldcupjson.net/matches?by_date=asc > matches.json
+          curl -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)" -s https://worldcupjson.net/teams/group_results > standings.json
+
+      - name: Commit & Push ke GitHub
+        run: |
+          git config --local user.email "bot@github.com"
+          git config --local user.name "FIFA Scraper Bot"
+          git add matches.json standings.json
+          git commit -m "Update skor otomatis" || exit 0
+          git push
