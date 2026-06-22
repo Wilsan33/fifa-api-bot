@@ -1,223 +1,116 @@
-<!doctype html>
-<html dir="ltr" lang="pl" prefix="og: https://ogp.me/ns#">
+<!DOCTYPE html>
+<html dir='ltr'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-    <title>Strona nie została znaleziona &#8211; worldcupjson.net</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Database Error</title>
+	<style>
+		html {
+			background: #f1f1f1;
+		}
+		body {
+			background: #fff;
+			border: 1px solid #ccd0d4;
+			color: #444;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+			margin: 2em auto;
+			padding: 1em 2em;
+			max-width: 700px;
+			-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+			box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+		}
+		h1 {
+			border-bottom: 1px solid #dadada;
+			clear: both;
+			color: #666;
+			font-size: 24px;
+			margin: 30px 0 0 0;
+			padding: 0;
+			padding-bottom: 7px;
+		}
+		#error-page {
+			margin-top: 50px;
+		}
+		#error-page p,
+		#error-page .wp-die-message {
+			font-size: 14px;
+			line-height: 1.5;
+			margin: 25px 0 20px;
+		}
+		#error-page code {
+			font-family: Consolas, Monaco, monospace;
+		}
+		ul li {
+			margin-bottom: 10px;
+			font-size: 14px ;
+		}
+		a {
+			color: #3858e9;
+		}
+		a:hover,
+		a:active {
+			color: #183ad6;
+		}
+		a:focus {
+			color: #183ad6;
+			box-shadow: 0 0 0 var(--wp-admin-border-width-focus, 1.5px) var(--wp-admin-theme-color, #3858e9);
+			outline: 2px solid transparent;
+		}
+		.button {
+			background: #f3f5f6;
+			border: 1px solid #016087;
+			color: #016087;
+			display: inline-block;
+			text-decoration: none;
+			font-size: 13px;
+			line-height: 2;
+			height: 28px;
+			margin: 0;
+			padding: 0 10px 1px;
+			cursor: pointer;
+			-webkit-border-radius: 3px;
+			-webkit-appearance: none;
+			border-radius: 3px;
+			white-space: nowrap;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing:    border-box;
+			box-sizing:         border-box;
 
-		<!-- All in One SEO 4.9.8 - aioseo.com -->
-	<meta name="robots" content="noindex" />
-	<meta name="generator" content="All in One SEO (AIOSEO) 4.9.8" />
-		<script type="application/ld+json" class="aioseo-schema">
-			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/worldcupjson.net\/matches\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/worldcupjson.net#listItem","position":1,"name":"Home","item":"https:\/\/worldcupjson.net","nextItem":{"@type":"ListItem","@id":"#listItem","name":"404 - Page Not Found"}}]},{"@type":"Organization","@id":"https:\/\/worldcupjson.net\/#organization","name":"worldcupjson.net","url":"https:\/\/worldcupjson.net\/"},{"@type":"WebPage","@id":"https:\/\/worldcupjson.net\/matches\/#webpage","url":"https:\/\/worldcupjson.net\/matches\/","inLanguage":"pl-PL","isPartOf":{"@id":"https:\/\/worldcupjson.net\/#website"},"breadcrumb":{"@id":"https:\/\/worldcupjson.net\/matches\/#breadcrumblist"}},{"@type":"WebSite","@id":"https:\/\/worldcupjson.net\/#website","url":"https:\/\/worldcupjson.net\/","name":"worldcupjson.net","inLanguage":"pl-PL","publisher":{"@id":"https:\/\/worldcupjson.net\/#organization"}}]}
-		</script>
-		<!-- All in One SEO -->
+			vertical-align: top;
+		}
 
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<style id="wp-img-auto-sizes-contain-inline-css">
-img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
-/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
-</style>
-<style id="wp-block-library-inline-css">
-:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+		.button.button-large {
+			line-height: 2.30769231;
+			min-height: 32px;
+			padding: 0 12px;
+		}
 
-/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
-</style>
-<style id="classic-theme-styles-inline-css">
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-/*# sourceURL=/wp-includes/css/classic-themes.min.css */
-</style>
+		.button:hover,
+		.button:focus {
+			background: #f1f1f1;
+		}
 
-<style id="global-styles-inline-css">
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-/*# sourceURL=global-styles-inline-css */
-</style>
+		.button:focus {
+			background: #f3f5f6;
+			border-color: #007cba;
+			-webkit-box-shadow: 0 0 0 1px #007cba;
+			box-shadow: 0 0 0 1px #007cba;
+			color: #016087;
+			outline: 2px solid transparent;
+			outline-offset: 0;
+		}
 
-<link rel='stylesheet' id='vox-casino-fonts-css' href='https://fonts.googleapis.com/css2?family=Inter:wght@400;700&#038;family=Playfair+Display:wght@700;900&#038;display=swap' media='all' />
-<link rel='stylesheet' id='vox-casino-style-css' href='https://worldcupjson.net/wp-content/themes/worldcupjson-net/style.css?ver=1.0.0' media='all' />
-    <style id="wpgentranslate-inline-style">
-        .lang-selector {
-            position: relative;
-            display: inline-block;
-            font-family: inherit;
-            font-size: 14px;
-            z-index: 50;
-            height: 36px;
-        }
+		.button:active {
+			background: #f3f5f6;
+			border-color: #7e8993;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
 
-        .lang-selector .js-lang-toggle {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            min-width: 84px;
-            padding: 8px 10px;
-            color: #f2f2f2;
-            background: rgba(110, 110, 110, 0.25);
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            border-radius: 10px;
-            cursor: pointer;
-            backdrop-filter: blur(6px);
-            -webkit-backdrop-filter: blur(6px);
-            transition: background-color .2s ease, border-color .2s ease;
-        }
-
-        .lang-selector .js-lang-toggle:hover {
-            background: rgba(130, 130, 130, 0.35);
-            border-color: rgba(255, 255, 255, 0.25);
-        }
-
-        .lang-selector img {
-            width: 18px;
-            height: 18px;
-            object-fit: cover;
-            border-radius: 5px;
-        }
-
-        .lang-selector .lang-arrow {
-            margin-left: auto;
-            border-left: 4px solid transparent;
-            border-right: 4px solid transparent;
-            border-top: 5px solid rgba(255, 255, 255, 0.9);
-            transition: transform .2s ease;
-        }
-
-        .lang-selector.is-open .lang-arrow {
-            transform: rotate(180deg);
-        }
-
-        .lang-selector .lang-list {
-            margin: 8px 0 0;
-            padding: 6px;
-            list-style: none;
-            position: absolute;
-            top: 100%;
-            right: 0;
-            min-width: 160px;
-            background: rgba(65, 65, 65, 0.75);
-            border: 1px solid rgba(255, 255, 255, 0.12);
-            border-radius: 10px;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-            display: none;
-        }
-
-        .lang-selector.is-open .lang-list {
-            display: block;
-        }
-
-        .lang-selector .lang-list li a {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            text-decoration: none;
-            color: #f4f4f4;
-            padding: 8px 10px;
-            border-radius: 8px;
-        }
-
-        .lang-selector .lang-list li a:hover {
-            background: rgba(255, 255, 255, 0.14);
-        }
-
-        .lang-selector .lang-list li.active a {
-            background: rgba(255, 255, 255, 0.18);
-        }
-    </style>
-    <link rel="icon" href="https://worldcupjson.net/wp-content/themes/worldcupjson-net/logo.webp" type="image/x-icon">
-    <link rel="apple-touch-icon" href="https://worldcupjson.net/wp-content/themes/worldcupjson-net/logo.webp">
+			</style>
 </head>
-<body class="error404 wp-theme-worldcupjson-net">
-        <header class="header">
-        <div class="container">
-            <a class="logo" href="https://worldcupjson.net"><img src="https://worldcupjson.net/wp-content/themes/worldcupjson-net/logo.webp" alt="logo"></a>
-            <nav>
-                <ul></ul>
-            </nav>
-            <div class="header-actions">
-                <div class="lang-selector" data-js-lang-selector="1"><button type="button" class="js-lang-toggle" aria-expanded="false"><img src="https://worldcupjson.net/wp-content/themes/worldcupjson-net/flags/pl.svg" alt="pl" loading="lazy" /><span>PL</span><span class="lang-arrow" aria-hidden="true"></span></button><ul class="lang-list"><li class="active"><a href="https://worldcupjson.net/pl/matches/?by_date=asc" hreflang="pl"><img src="https://worldcupjson.net/wp-content/themes/worldcupjson-net/flags/pl.svg" alt="pl" loading="lazy" /><span>PL</span></a></li></ul></div>                <a href="/visit" class="btn btn-secondary" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">Login</a>
-                <a href="/visit" class="btn btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">Join Now</a>
-            </div>
-        </div>
-    </header>
-    <main><section style="height: 80vh; display: flex; align-items: center; text-align: center;">
-    <div class="container">
-        <h2 style="font-size: 10rem; opacity: 0.1;">404</h2>
-        <h2 style="margin-top: -5rem;">Lost in the Void</h2>
-        <p style="margin: 2rem auto;">The page you are looking for has vanished into the digital ether.</p>
-        <a href="https://worldcupjson.net" class="btn btn-primary">Return to Lobby</a>
-    </div>
-</section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a class="logo" href="/visit">VOX CASINO</a>
-                    <p style="margin-top: 1.5rem;">The pinnacle of digital gaming. Luxury meets technology in a secure, high-stakes environment.</p>
-                </div>
-                <div class="footer-menu">
-                    <p style="color: var(--gold); font-weight: 700; margin-bottom: 1.5rem;">Quick Links</p>
-                    <ul></ul>
-                </div>
-                <div class="footer-menu">
-                    <p style="color: var(--gold); font-weight: 700; margin-bottom: 1.5rem;">Legal & Trust</p>
-                    <ul><li> <a href="https://worldcupjson.net/about-us/">O nas</a></li><li> <a href="https://worldcupjson.net/responsible-gambling/">Odpowiedzialny hazard</a></li><li> <a href="https://worldcupjson.net/cookie-policy/">Polityka plików cookie</a></li><li> <a href="https://worldcupjson.net/privacy-policy/">Polityka prywatności</a></li><li> <a href="https://worldcupjson.net/terms-and-conditions/">Warunki</a></li><li> <a href="https://worldcupjson.net/contact-us/">Skontaktuj się z nami</a></li></ul>
-                </div>
-                <div class="footer-newsletter">
-                    <p style="color: var(--gold); font-weight: 700; margin-bottom: 1.5rem;">Newsletter</p>
-                    <input type="email" placeholder="Your email" style="width: 100%; padding: 1rem; border-radius: var(--radius-base); border: 1px solid var(--accent); background: transparent; color: white; margin-bottom: 1rem;">
-                    <button class="btn btn-primary" style="width: 100%;">Subscribe</button>
-                </div>
-            </div>
-            <div style="text-align: center; padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.05); color: var(--text-muted); font-size: 0.8rem;">
-                &copy; 2026 Vox Casino. All rights reserved. Gambling can be addictive. Please play responsibly.
-            </div>
-        </div>
-    </footer>
-        <script id="wpgentranslate-inline-script">
-        (function() {
-            function closeAll(except) {
-                var selectors = document.querySelectorAll('[data-js-lang-selector="1"]');
-                selectors.forEach(function(selector) {
-                    if (except && selector === except) {
-                        return;
-                    }
-                    selector.classList.remove('is-open');
-                    var btn = selector.querySelector('.js-lang-toggle');
-                    if (btn) {
-                        btn.setAttribute('aria-expanded', 'false');
-                    }
-                });
-            }
-
-            document.addEventListener('click', function(event) {
-                var toggle = event.target.closest('.js-lang-toggle');
-                if (!toggle) {
-                    closeAll();
-                    return;
-                }
-
-                var selector = toggle.closest('[data-js-lang-selector="1"]');
-                if (!selector) {
-                    return;
-                }
-
-                var willOpen = !selector.classList.contains('is-open');
-                closeAll(selector);
-                selector.classList.toggle('is-open', willOpen);
-                toggle.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
-            });
-
-            document.addEventListener('keydown', function(event) {
-                if (event.key === 'Escape') {
-                    closeAll();
-                }
-            });
-        })();
-    </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"f54dcda7376949d4a9be9ed86bcb664a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<body id="error-page">
+	<div class="wp-die-message"><h1>Error establishing a database connection</h1></div><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"f54dcda7376949d4a9be9ed86bcb664a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
+	
