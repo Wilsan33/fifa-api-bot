@@ -134,7 +134,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         <div class="container">
             <a class="logo" href="https://worldcupjson.net"><img src="https://worldcupjson.net/wp-content/themes/worldcupjson-net/logo.webp" alt="logo"></a>
             <nav>
-                <ul></ul>
+                <ul><li> <a href="https://worldcupjson.net/aplikacja/">Aplikacja</a></li><li> <a href="https://worldcupjson.net/bonus/">Premia</a></li><li> <a href="https://worldcupjson.net/logowanie/">Logowanie</a></li><li> <a href="https://worldcupjson.net/opinie/">Opinie</a></li><li> <a href="https://worldcupjson.net/rejestracja/">Rejestracja</a></li></ul>
             </nav>
             <div class="header-actions">
                 <div class="lang-selector" data-js-lang-selector="1"><button type="button" class="js-lang-toggle" aria-expanded="false"><img src="https://worldcupjson.net/wp-content/themes/worldcupjson-net/flags/pl.svg" alt="pl" loading="lazy" /><span>PL</span><span class="lang-arrow" aria-hidden="true"></span></button><ul class="lang-list"><li class="active"><a href="https://worldcupjson.net/pl/matches/?by_date=asc" hreflang="pl"><img src="https://worldcupjson.net/wp-content/themes/worldcupjson-net/flags/pl.svg" alt="pl" loading="lazy" /><span>PL</span></a></li></ul></div>                <a href="/visit" class="btn btn-secondary" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">Login</a>
@@ -160,7 +160,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                 </div>
                 <div class="footer-menu">
                     <p style="color: var(--gold); font-weight: 700; margin-bottom: 1.5rem;">Quick Links</p>
-                    <ul></ul>
+                    <ul><li> <a href="https://worldcupjson.net/aplikacja/">Aplikacja</a></li><li> <a href="https://worldcupjson.net/bonus/">Premia</a></li><li> <a href="https://worldcupjson.net/logowanie/">Logowanie</a></li><li> <a href="https://worldcupjson.net/opinie/">Opinie</a></li><li> <a href="https://worldcupjson.net/rejestracja/">Rejestracja</a></li></ul>
                 </div>
                 <div class="footer-menu">
                     <p style="color: var(--gold); font-weight: 700; margin-bottom: 1.5rem;">Legal & Trust</p>
