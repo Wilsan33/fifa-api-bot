@@ -138,16 +138,16 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
             </nav>
             <div class="header-actions">
                 <div class="lang-selector" data-js-lang-selector="1"><button type="button" class="js-lang-toggle" aria-expanded="false"><img src="https://worldcupjson.net/wp-content/themes/worldcupjson-net/flags/pl.svg" alt="pl" loading="lazy" /><span>PL</span><span class="lang-arrow" aria-hidden="true"></span></button><ul class="lang-list"><li class="active"><a href="https://worldcupjson.net/pl/matches/?by_date=asc" hreflang="pl"><img src="https://worldcupjson.net/wp-content/themes/worldcupjson-net/flags/pl.svg" alt="pl" loading="lazy" /><span>PL</span></a></li></ul></div>                <a href="/visit" class="btn btn-secondary" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">Login</a>
-                <a href="/visit" class="btn btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">Join Now</a>
+                <a href="/visit" class="btn btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">Dołącz teraz</a>
             </div>
         </div>
     </header>
     <main><section style="height: 80vh; display: flex; align-items: center; text-align: center;">
     <div class="container">
         <h2 style="font-size: 10rem; opacity: 0.1;">404</h2>
-        <h2 style="margin-top: -5rem;">Lost in the Void</h2>
-        <p style="margin: 2rem auto;">The page you are looking for has vanished into the digital ether.</p>
-        <a href="https://worldcupjson.net" class="btn btn-primary">Return to Lobby</a>
+        <h2 style="margin-top: -5rem;">Zagubiony w Pustce</h2>
+        <p style="margin: 2rem auto;">Strona, której szukasz, zniknęła w cyfrowym eterze.</p>
+        <a href="https://worldcupjson.net&quot; class=&quot;btn btn basic&quot;&gt;Wróć do lobby</a>
     </div>
 </section>
     </main>
@@ -155,21 +155,21 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a class="logo" href="/visit">VOX CASINO</a>
-                    <p style="margin-top: 1.5rem;">The pinnacle of digital gaming. Luxury meets technology in a secure, high-stakes environment.</p>
+                    <a class="logo" href="/visit">KASYNO VOX</a>
+                    <p style="margin-top: 1.5rem;">Szczyt cyfrowych gier. </p>
                 </div>
                 <div class="footer-menu">
-                    <p style="color: var(--gold); font-weight: 700; margin-bottom: 1.5rem;">Quick Links</p>
+                    <p style="color: var(--gold); font-weight: 700; margin-bottom: 1.5rem;">Szybkie linki</p>
                     <ul><li> <a href="https://worldcupjson.net/aplikacja/">Aplikacja</a></li><li> <a href="https://worldcupjson.net/bonus/">Premia</a></li><li> <a href="https://worldcupjson.net/logowanie/">Logowanie</a></li><li> <a href="https://worldcupjson.net/opinie/">Opinie</a></li><li> <a href="https://worldcupjson.net/rejestracja/">Rejestracja</a></li></ul>
                 </div>
                 <div class="footer-menu">
-                    <p style="color: var(--gold); font-weight: 700; margin-bottom: 1.5rem;">Legal & Trust</p>
+                    <p style="color: var(--gold); font-weight: 700; margin-bottom: 1.5rem;">Prawny</p>
                     <ul><li> <a href="https://worldcupjson.net/about-us/">O nas</a></li><li> <a href="https://worldcupjson.net/responsible-gambling/">Odpowiedzialny hazard</a></li><li> <a href="https://worldcupjson.net/cookie-policy/">Polityka plików cookie</a></li><li> <a href="https://worldcupjson.net/privacy-policy/">Polityka prywatności</a></li><li> <a href="https://worldcupjson.net/terms-and-conditions/">Warunki</a></li><li> <a href="https://worldcupjson.net/contact-us/">Skontaktuj się z nami</a></li></ul>
                 </div>
                 <div class="footer-newsletter">
-                    <p style="color: var(--gold); font-weight: 700; margin-bottom: 1.5rem;">Newsletter</p>
+                    <p style="color: var(--gold); font-weight: 700; margin-bottom: 1.5rem;">Biuletyn</p>
                     <input type="email" placeholder="Your email" style="width: 100%; padding: 1rem; border-radius: var(--radius-base); border: 1px solid var(--accent); background: transparent; color: white; margin-bottom: 1rem;">
-                    <button class="btn btn-primary" style="width: 100%;">Subscribe</button>
+                    <button class="btn btn-primary" style="width: 100%;">Subskrybować</button>
                 </div>
             </div>
             <div style="text-align: center; padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.05); color: var(--text-muted); font-size: 0.8rem;">
