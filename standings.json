@@ -36,7 +36,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </style>
 
 <link rel='stylesheet' id='vox-casino-fonts-css' href='https://fonts.googleapis.com/css2?family=Inter:wght@400;700&#038;family=Playfair+Display:wght@700;900&#038;display=swap' media='all' />
-<link rel='stylesheet' id='vox-casino-style-css' href='https://worldcupjson.net/wp-content/themes/worldcupjson-net/style.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='vox-casino-style-css' href='https://worldcupjson.net/wp-content/themes/worldcupjson-net/style.css?ver=1.0.1' media='all' />
     <style id="wpgentranslate-inline-style">
         .lang-selector {
             position: relative;
@@ -218,6 +218,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
             });
         })();
     </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"f54dcda7376949d4a9be9ed86bcb664a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"f54dcda7376949d4a9be9ed86bcb664a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
